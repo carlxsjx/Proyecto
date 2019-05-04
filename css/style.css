@@ -368,7 +368,7 @@ padding-right: 7px;
   color: black;
   box-sizing: border-box;
   font-family: Arial;
-  font-size: 12px;
+  font-size: 11px;
 }
 
   .Foto
@@ -502,4 +502,11 @@ padding-right: 7px;
 
     align-items: center;
   }
+  
+  .principal
+{
+  padding-left:  4%;
+  padding-right:  4%;
+
+}
 }
