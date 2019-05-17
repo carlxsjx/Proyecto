@@ -323,7 +323,7 @@ text-align: justify;
   transform: translateY(0%);
 }
 
-@media (min-width: 0px) and (max-width: 680px)  {
+@media (min-width: 0px) and (max-width: 920px)  {
 
   h1
   {
