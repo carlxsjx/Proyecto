@@ -7,6 +7,18 @@
   font-size: 15px;
 }
 
+.Enlace
+{
+  width: 12px;
+  filter: invert(0.4) sepia(1) hue-rotate(20deg) saturate(1000%);
+}
+.iconos
+{
+  width: 12px;
+  
+}
+
+
 h1
 {
 color: black;
@@ -19,7 +31,7 @@ color: black;
 h2
 {
   color:  #303030;
-  font-weight: 20;
+
   margin-top: 0px;
   margin-bottom: 30px;
 }
@@ -27,6 +39,7 @@ h3
 {
   color: #2b7c91;
   text-transform: uppercase;
+
 }
 
 hr {
@@ -36,15 +49,17 @@ hr {
 b{
   color: black;
 }
+
 nav
 {
   position: fixed;
   z-index: 1;
 
 
-  background: #000;
+  background: #303030;
   margin: 0px;
   padding: 0%;
+ 
   height: 50px;
   width: 100%;
   float: left;
@@ -110,14 +125,7 @@ body
   background-color: white;
 }
 
-.Foto  :hover
-{
-  background: url("img/abierto.png");
-  width: 200px;
-  border: 5px solid rgb(255,255,255);
-  border-radius: 50%;
-  margin: 100px 0px;
-}
+
 
 .LadoDerecho
 {
@@ -137,7 +145,7 @@ body
 }
 .RedesSosiales
 {
-  padding-right: 20px;
+  padding-right: 10%;
   float: right;
 }
 
@@ -323,7 +331,7 @@ text-align: justify;
   transform: translateY(0%);
 }
 
-@media (min-width: 0px) and (max-width: 920px)  {
+@media (min-width: 0px) and (max-width: 950px)  {
 
   h1
   {
@@ -348,7 +356,6 @@ text-align: justify;
   {
     margin-top:   30px;
       line-height: normal;
-     font-size: 12px;
   }
 
   .Horizontal li{
@@ -358,7 +365,7 @@ text-align: justify;
 text-align: center;
 padding-left: 7px;
 padding-right: 7px;
-  }
+}
 .Horizontal b
 {
   font-size: 12px;
@@ -369,8 +376,10 @@ padding-right: 7px;
   color: black;
   box-sizing: border-box;
   font-family: Arial;
-  font-size: 11px;
+  font-size: 12px;
 }
+
+
 
   .Foto
   {
@@ -503,11 +512,4 @@ padding-right: 7px;
 
     align-items: center;
   }
-  
-  .principal
-{
-  padding-left:  4%;
-  padding-right:  4%;
-
-}
 }
