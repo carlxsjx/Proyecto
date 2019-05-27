@@ -5,16 +5,18 @@
   box-sizing: border-box;
   font-family: Arial;
   font-size: 15px;
+
+  
 }
 
 .Enlace
 {
-  width: 12px;
+  width: 13px;
   filter: invert(0.4) sepia(1) hue-rotate(20deg) saturate(1000%);
 }
 .iconos
 {
-  width: 12px;
+  width: 13px;
   
 }
 
@@ -22,7 +24,7 @@
 h1
 {
 color: black;
-  margin-top: 35px;
+  margin-top: 20px;
   margin-bottom: 0px;
   font-size: 40px;
   margin-bottom: 0px;
@@ -40,7 +42,14 @@ h3
   color: #2b7c91;
   text-transform: uppercase;
 
+  
+
 }
+.temas
+{
+  display: inline;
+}
+
 
 hr {
   flex: 0 0 100%;
@@ -50,6 +59,10 @@ b{
   color: black;
 }
 
+.BotonVerMas
+{
+  align-content: flex-end;
+}
 nav
 {
   position: fixed;
@@ -65,6 +78,9 @@ nav
   float: left;
 }
 
+html{
+  margin-bottom:  50px;
+}
 
 .apellidos
 {
@@ -77,6 +93,7 @@ nav
 font-size: 10px;
 margin:0;
 padding:0;
+padding-top: 10px;
 }
 .Horizontal li{
 color: white;
@@ -104,6 +121,9 @@ padding-right: 35px;
 {
   padding-left:  3%;
   padding-right:  3%;
+  
+
+  padding-top: 50px;
 
 }
 body
@@ -112,6 +132,7 @@ body
   height: 400px;
   width: 100%;
   background: #303030;
+  
 
 }
 
@@ -121,7 +142,7 @@ body
   width: 200px;
   border: 0px solid white;
   border-radius: 50%;
-  margin: 100px 0px;
+  margin: 75px 0px;
   background-color: white;
 }
 
@@ -134,6 +155,7 @@ body
   padding: 0%;
   width: 30%;
   float: left;
+
 }
 
 .LadoIzquierdo
@@ -142,10 +164,11 @@ body
   width: 70%;
   float: left;
   padding: 60px;
+  
 }
 .RedesSosiales
 {
-  padding-right: 10%;
+  padding-right: 5%;
   float: right;
 }
 
@@ -159,12 +182,15 @@ body
 {
   background: #2b7c91;
   height: 350px;
+
+  border-top-left-radius: 15px;
 }
 #Informacion
 {
 
   background: #2b7c91;
   height: 350px;
+  border-top-right-radius: 15px;
 }
 #SobreMi
 {
@@ -249,6 +275,8 @@ body
   height: 1000px;
   width: 30%;
   float: left;
+
+  border-bottom-left-radius: 15px;
 }
 #Habilidades
 {
@@ -262,27 +290,11 @@ body
   width: 70%;
 
   align-items: center;
-}
-.Portafolio
-{
-  width: 80%;
 
-  margin: auto;
+  border-bottom-right-radius: 15px;
 }
-.Portafolio
-{
-  display: flex;
-justify-content:space-around;
 
-}
-.Portafolios
-{
-  padding: 20px;
-background-color: white;
-  width: 100%;
-  margin: auto;
 
-}
 .Contenedor img
 {
 
@@ -330,6 +342,20 @@ text-align: justify;
 {
   transform: translateY(0%);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 0px) and (max-width: 950px)  {
 
@@ -379,6 +405,11 @@ padding-right: 7px;
   font-size: 12px;
 }
 
+.principal
+{
+  padding-top: 50px;
+ 
+}
 
 
   .Foto
@@ -397,7 +428,9 @@ padding-right: 7px;
     margin: 0px;
     padding: 0%;
     width: 100%;
-
+    border-radius: 0px;
+    
+    
   }
 #Datos
 {
@@ -411,6 +444,9 @@ padding-right: 7px;
     width: 100%;
 
     padding: 30px;
+
+    border-radius: 0px;
+    
   }
 
   #SobreMi
@@ -424,7 +460,10 @@ padding-right: 7px;
 
 
   }
-
+#Perfil
+{
+  border-top-right-radius: 15px;
+}
 
   #Descripcion
   {
@@ -439,6 +478,13 @@ padding-right: 7px;
     width: 100%;
 
     align-items: center;
+    
+  }
+
+  #Informacion
+  {
+    border-radius: 0%;
+
   }
 
 
@@ -497,6 +543,7 @@ padding-right: 7px;
     margin: 0px;
     height: 50px;
     width: 100%;
+    border-radius: 0%;
 
   }
   #Habilidades
@@ -511,5 +558,11 @@ padding-right: 7px;
     width: 100%;
 
     align-items: center;
+
+    border-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
+
+
 }
